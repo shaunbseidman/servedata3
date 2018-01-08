@@ -32,5 +32,5 @@ app.get('/:id', function(req, res) {
 
 
 app.listen((process.env.PORT || 4000), function(req,res) {
-  console.log('app is listening on ' + port);
+  console.log('app is listening on ' + port)
 })
